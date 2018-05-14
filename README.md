@@ -1,4 +1,4 @@
-# Gitea - Darkmode
+# Gitea - Github theme
 
 A Github theme for Gitea.
 

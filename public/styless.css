@@ -1,0 +1,329 @@
+/*******************************
+            Repo icon
+*******************************/
+
+.repository .header-grid .mega-octicon {
+  font-size: 16px;
+  color: #959da5;
+}
+
+
+
+/*******************************
+             Page
+*******************************/
+
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 13px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: visible;
+  min-width: 1049px;
+  background: #FFFFFF;
+  font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.4285em;
+  color: rgba(0, 0, 0, 0.87);
+  font-smoothing: antialiased;
+}
+
+/* Page width */
+.ui.container {
+    width: 980px;
+}
+
+
+
+/*******************************
+            Button
+*******************************/
+
+.ui.button {
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: none;
+  border: none;
+  vertical-align: baseline;
+  background: #FBFBFB -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
+  background: #FBFBFB linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.05));
+  color: #333333;
+  font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  margin: 0em 0.23076923rem 0em 0em;
+  padding: 0.53846154em 0.92307692em 0.53846154em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: bold;
+  line-height: 1.53184em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.2307em;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.13) inset, 0px 0em 0px 0px rgba(0, 0, 0, 0.13) inset;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: opacity 0.1s ease, background 0.1s ease, color 0.1s ease, background 0.1s ease;
+  transition: opacity 0.1s ease, background 0.1s ease, color 0.1s ease, background 0.1s ease;
+  will-change: '';
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+/*--------------
+   Sub Header
+---------------*/
+
+.ui.header .sub.header {
+  display: block;
+  font-weight: normal;
+  padding: 0em;
+  margin: 0em;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+/*******************************
+           Breadcrumb
+*******************************/
+
+.ui.breadcrumb {
+  line-height: 1;
+  display: inline-block;
+  margin: 0em 0em;
+  vertical-align: middle;
+}
+.ui.breadcrumb:first-child {
+  margin-top: 0em;
+}
+.ui.breadcrumb:last-child {
+  margin-bottom: 0em;
+}
+
+/*******************************
+           Variations
+*******************************/
+
+
+/*-------------------
+       Floated
+--------------------*/
+
+.ui[class*="left floated"].buttons,
+.ui[class*="left floated"].button {
+  float: left;
+  margin-left: 0em;
+  margin-right: 0.25em;
+}
+.ui[class*="right floated"].buttons,
+.ui[class*="right floated"].button {
+  float: right;
+  margin-right: 0em;
+  margin-left: 0.25em;
+}
+
+/*-------------------
+       Compact
+--------------------*/
+
+.ui.compact.buttons .button,
+.ui.compact.button {
+  padding: 0.30769231em 0.76923077em 0.30769231em;
+}
+.ui.compact.icon.buttons .button,
+.ui.compact.icon.button {
+  padding: 0.30769231em 0.30769231em 0.30769231em;
+}
+.ui.compact.labeled.icon.buttons .button,
+.ui.compact.labeled.icon.button {
+  padding: 0.30769231em 2.84615385em 0.30769231em;
+}
+
+/*-------------------
+        Sizes
+--------------------*/
+
+.ui.mini.buttons .button,
+.ui.mini.buttons .or,
+.ui.mini.button {
+  font-size: 10px;
+}
+.ui.tiny.buttons .button,
+.ui.tiny.buttons .or,
+.ui.tiny.button {
+  font-size: 11px;
+}
+.ui.small.buttons .button,
+.ui.small.buttons .or,
+.ui.small.button {
+  font-size: 12px;
+}
+.ui.buttons .button,
+.ui.buttons .or,
+.ui.button {
+  font-size: 13px;
+}
+.ui.large.buttons .button,
+.ui.large.buttons .or,
+.ui.large.button {
+  font-size: 15px;
+}
+.ui.big.buttons .button,
+.ui.big.buttons .or,
+.ui.big.button {
+  font-size: 16px;
+}
+.ui.huge.buttons .button,
+.ui.huge.buttons .or,
+.ui.huge.button {
+  font-size: 18px;
+}
+.ui.massive.buttons .button,
+.ui.massive.buttons .or,
+.ui.massive.button {
+  font-size: 24px;
+}
+
+/*--------------
+    Icon Only
+---------------*/
+
+.ui.icon.buttons .button,
+.ui.icon.button {
+  padding: 0.53846154em 0.53846154em 0.53846154em;
+}
+.ui.icon.buttons .button > .icon,
+.ui.icon.button > .icon {
+  opacity: 0.9;
+  margin: 0em;
+  vertical-align: top;
+}
+
+/*-------------------
+        Basic
+--------------------*/
+
+.ui.basic.buttons .button,
+.ui.basic.button {
+  background: transparent none !important;
+  color: #4078C0 !important;
+  font-weight: bold;
+  border-radius: 0.2307em;
+  text-transform: none;
+  text-shadow: none !important;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.13) inset;
+}
+.ui.basic.buttons {
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 0.2307em;
+}
+.ui.basic.buttons .button {
+  border-radius: 0em;
+}
+.ui.basic.buttons .button:hover,
+.ui.basic.button:hover {
+  background: #E0E0E0 !important;
+  color: #4078C0 !important;
+  box-shadow: 0px 0px 0px 1px #51A7E8 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0.13) inset;
+}
+.ui.basic.buttons .button:focus,
+.ui.basic.button:focus {
+  background: #E0E0E0 !important;
+  color: #4078C0 !important;
+  box-shadow: 0px 0px 0px 1px #51A7E8 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0.13) inset;
+}
+.ui.basic.buttons .button:active,
+.ui.basic.button:active {
+  background: #F8F8F8 !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(0, 0, 0, 0.13) inset;
+}
+.ui.basic.buttons .active.button,
+.ui.basic.active.button {
+  background: rgba(0, 0, 0, 0.05) !important;
+  box-shadow: '' !important;
+  color: rgba(0, 0, 0, 0.95);
+  box-shadow: #51A7E8;
+}
+.ui.basic.buttons .active.button:hover,
+.ui.basic.active.button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Vertical */
+.ui.basic.buttons .button:hover {
+  box-shadow: 0px 0px 0px 1px #51A7E8 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0.13) inset inset;
+}
+.ui.basic.buttons .button:active {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(0, 0, 0, 0.13) inset inset;
+}
+.ui.basic.buttons .active.button {
+  box-shadow: #51A7E8 inset;
+}
+
+/* Standard Basic Inverted */
+.ui.basic.inverted.buttons .button,
+.ui.basic.inverted.button {
+  background-color: transparent !important;
+  color: #F9FAFB !important;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+}
+.ui.basic.inverted.buttons .button:hover,
+.ui.basic.inverted.button:hover {
+  color: #FFFFFF !important;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+}
+.ui.basic.inverted.buttons .button:focus,
+.ui.basic.inverted.button:focus {
+  color: #FFFFFF !important;
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+}
+.ui.basic.inverted.buttons .button:active,
+.ui.basic.inverted.button:active {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.9) inset !important;
+}
+.ui.basic.inverted.buttons .active.button,
+.ui.basic.inverted.active.button {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7) inset;
+}
+.ui.basic.inverted.buttons .active.button:hover,
+.ui.basic.inverted.active.button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 0px 0px 2px #ffffff inset !important;
+}
+
+/* Basic Group */
+.ui.basic.buttons .button {
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  box-shadow: none;
+}
+.ui.basic.vertical.buttons .button {
+  border-left: none;
+}
+.ui.basic.vertical.buttons .button {
+  border-left-width: 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.13);
+}
+.ui.basic.vertical.buttons .button:first-child {
+  border-top-width: 0px;
+}
+

@@ -10,7 +10,9 @@ A Github theme for Gitea.
 
 ## Directions
 
-Put `public/styles.css` into the `public/` directory of your gitea installation (you may need to create it), and place `templates/custom/header.tmpl` into the `templates/custom/` directory of your gitea installation.
+- Create `custom` directory inside of your gitea installation
+- Put `styles.css` into the `custom/public/`
+- Place `header.tmpl` into the `custom/templates/custom/`
 
 ## Credit
 
